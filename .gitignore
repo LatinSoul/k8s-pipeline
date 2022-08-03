@@ -1,0 +1,5 @@
+# Node artifact files
+famous-app/node_modules/
+
+# REST calls 
+famous-app/*.rest
