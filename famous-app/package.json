@@ -1,0 +1,26 @@
+{
+  "name": "famous-app",
+  "version": "1.0.0",
+  "description": "basic app for jenkins pipeline project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LatinSoul/k8s-pipeline.git"
+  },
+  "author": "ocg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LatinSoul/k8s-pipeline/issues"
+  },
+  "homepage": "https://github.com/LatinSoul/k8s-pipeline#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
