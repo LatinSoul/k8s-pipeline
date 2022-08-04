@@ -2,9 +2,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata: 
+  name: famousapp-dpl
   labels: 
     app: famousapp
-  name: famousapp-dpl
 spec: 
   replicas: 1
   selector: 
@@ -16,12 +16,10 @@ spec:
         app: famousapp
     spec: 
       containers: 
-        - 
-          image: "dgtlkrm/famousapp:latest"
-          name: nodeserver
+        - name: nodeserver
+          image: dgtlkrm/famousapp:latest
           ports: 
-            - 
-              containerPort: 3000
+            - containerPort: 3000
         
 ---
 apiVersion: v1
